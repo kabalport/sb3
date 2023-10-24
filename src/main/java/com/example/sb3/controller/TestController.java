@@ -15,6 +15,11 @@ public class TestController {
         return "[Get] Hello, world2!";
     }
 
+    @GetMapping("/hello/world3")
+    public String helloWorld3() {
+        return "[Get] Hello, world3!";
+    }
+
     @PostMapping("/hello/world")
     public String postHelloWorld() {
         return "[Post] Hello, world";
