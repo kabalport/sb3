@@ -62,7 +62,7 @@ jobs:
 #          REDIS_PORT: ${{ secrets.REDIS_PORT }}
 #          REDIS_PASSWORD: ${{ secrets.REDIS_PASSWORD }}
 #        with:
-#          service: spring-app-runner
+#          service: runner
 #          image: ${{ steps.build-image.outputs.image }}
 #          access-role-arn: ${{ secrets.ROLE_ARN }}
 #          region: ${{ env.AWS_REGION }}
