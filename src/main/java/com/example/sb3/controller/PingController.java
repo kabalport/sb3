@@ -9,4 +9,8 @@ public class PingController {
     public String helloWorld() {
         return "pong";
     }
+    @GetMapping("/ping2")
+    public String helloWorld2() {
+        return "pong2";
+    }
 }
